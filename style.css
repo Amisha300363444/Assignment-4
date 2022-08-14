@@ -1,0 +1,152 @@
+Code for html files gp_cover.html:
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<!--
+
+Author:
+
+Date:
+
+-->
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="./gp_layout.css">
+
+<link rel="stylesheet" href="./gp_print.css">
+
+<link rel="stylesheet" href="./gp_reset.css">
+
+<title>Document</title>
+
+</head>
+
+<body>
+
+<header>
+
+Header
+
+<nav>
+
+
+<div class="div-1">Menu 1</div>
+
+<div class="div-2">Menu 2</div>
+
+<div class="div-3">Menu 3</div>
+
+</nav>
+
+</header>
+
+<div class="main">
+
+<article>
+
+
+
+<section>Feature 1</section>
+
+<section>Feature 2</section>
+
+<section>Feature 3</section>
+
+</article>
+
+<aside>
+
+Sidebar
+
+</aside>
+
+</div>
+
+<section id="sheet">
+
+<h1>This is the H1 tag</h1>
+
+<img src="" class="panel size" alt="image">
+
+<footer>
+
+ Footer
+
+<a href="./gp_page1.html">
+
+<img src="./gp_next.png" alt="next png image">
+
+</a>
+
+</footer>
+
+</section>
+
+</body>
+
+</html>
+
+css code
+
+/** author: date: **/
+
+*{
+
+box-sizing: border-box;
+
+}
+
+body{
+
+display: flex;
+
+flex-flow: row wrap;
+
+}
+
+/* Media Query for Mobile phones */
+
+@media (max-width: 480px){
+
+img{
+
+width: 100%;
+
+}
+
+nav{
+
+order: 99;
+
+}
+
+footer{
+
+order: 100;
+
+}
+
+}
+
+/* Media Query for Tablets */
+
+@media (min-width: 481px) and (mix-width: 767px){
+
+ul{
+
+display: flex;
+
+height: 40px;
+
+}
+
+}
